@@ -15,7 +15,7 @@ The update state is defined by using the IPOPT library, through the `Solve` func
 To complete, the updated values (steering angle, throttle, x, y and the waypoints ptsx and ptsy) are sent to the simulator and are displayed as a green line. The goal of is to have the yellow line match the green line.
 
 ### Timestep Length and Elapsed Duration (N & dt)
-I started with higher values for dt and found lower seemed to perform better. I settled on `N=16` and `dt=0.16` as this gets the car to visualize .256 steps ahead - considering we have a latency of 0.1, which seems to be a reasonable time frame.
+I started with higher values for dt and found lower seemed to perform better. I settled on `N=16` and `dt=0.016` as this gets the car to visualize .256 steps ahead - considering we have a latency of 0.1, which seems to be a reasonable time frame.
 
 ### Polynomial Fitting and MPC Preprocessing
 All computations are performed in the vehicle coordinate system. The coordinates of waypoints in vehicle coordinates are obtained by first shifting the origin to the current position of the vehicle and a subsequent 2D rotation to align the x-axis with the heading direction. A 3rd order polynomial is then fitted to the waypoints. 
