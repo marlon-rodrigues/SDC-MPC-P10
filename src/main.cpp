@@ -111,7 +111,7 @@ int main() {
 
           // Use Eigen vector as polyfit() requires it
           Eigen::VectorXd x_car_space = Eigen::VectorXd(ptsx.size());
-          Eigen::VectorXd y_car_space = Eigen::VectorXd(ptsx.size()); //TODO: SHOULD IT BE ptsy()?
+          Eigen::VectorXd y_car_space = Eigen::VectorXd(ptsx.size()); 
 
           for(int i=0; i<ptsx.size(); i++) {
             x_car_space(i) = (ptsx[i] - px) * cos(psi) + (ptsy[i] - py) * sin(psi);
