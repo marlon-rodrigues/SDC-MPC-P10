@@ -1,4 +1,4 @@
-# SDC-Controls-MPC-P10
+# SDC-MPC-P10
 
 ## Model Predictive Control
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
@@ -28,4 +28,4 @@ Based on our state vector, we define `px = v * latency`, where `latency = 0.1` t
 
 ## Video with Results
 
-A video of the results can be found [here](https://youtu.be/dQHF_KRFk10).
+A video of the results can be found [here](https://youtu.be/USpCiaYH2Xo).
