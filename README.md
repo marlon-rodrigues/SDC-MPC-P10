@@ -29,3 +29,11 @@ Based on our state vector, we define `px = v * latency`, where `latency = 0.1` t
 ## Video with Results
 
 A video of the results can be found [here](https://youtu.be/USpCiaYH2Xo).
+
+## Sources and Credits
+This is a student project with the primary goal being to learn and understand the concepts behind a model predictive control. 
+
+1. Udacity provided starter code, quiz code and lessons.
+2. Ideas from other students and mentors through forums, chat channel and github.
+3. The various dependencies libraries.
+4. [Wikipedia](https://en.wikipedia.org/wiki/Model_predictive_control)
